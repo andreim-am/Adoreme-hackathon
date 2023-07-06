@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		FDAEBDBD2A56C13A00CC2711 /* AdoreMe_HackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDBC2A56C13A00CC2711 /* AdoreMe_HackathonApp.swift */; };
-		FDAEBDBF2A56C13A00CC2711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDBE2A56C13A00CC2711 /* ContentView.swift */; };
+		FDAEBDBF2A56C13A00CC2711 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDBE2A56C13A00CC2711 /* ChatView.swift */; };
 		FDAEBDC12A56C13C00CC2711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAEBDC02A56C13C00CC2711 /* Assets.xcassets */; };
 		FDAEBDC52A56C13C00CC2711 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAEBDC42A56C13C00CC2711 /* Preview Assets.xcassets */; };
+		FDAEBDCE2A56C24D00CC2711 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDCD2A56C24D00CC2711 /* ProductView.swift */; };
+		FDAEBDD02A56E7F300CC2711 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDCF2A56E7F300CC2711 /* MessageView.swift */; };
+		FDAEBDD32A56F05500CC2711 /* MessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDD22A56F05500CC2711 /* MessageProtocol.swift */; };
+		FDAEBDD52A56F08100CC2711 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDD42A56F08100CC2711 /* MessageService.swift */; };
+		FDAEBDD82A56F0BE00CC2711 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDD72A56F0BE00CC2711 /* Message.swift */; };
+		FDAEBDDB2A56F2B700CC2711 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDDA2A56F2B700CC2711 /* NetworkError.swift */; };
+		FDAEBDDE2A56F41F00CC2711 /* HttpExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDDD2A56F41F00CC2711 /* HttpExtension.swift */; };
+		FDAEBDE12A56F48300CC2711 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDE02A56F48300CC2711 /* Repository.swift */; };
+		FDAEBDE32A56F5EC00CC2711 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDE22A56F5EC00CC2711 /* Response.swift */; };
+		FDAEBDE62A56F6EC00CC2711 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDE52A56F6EC00CC2711 /* ChatViewModel.swift */; };
+		FDAEBDE82A56F88100CC2711 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAEBDE72A56F88100CC2711 /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDAEBDB92A56C13A00CC2711 /* AdoreMe-Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdoreMe-Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAEBDBC2A56C13A00CC2711 /* AdoreMe_HackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoreMe_HackathonApp.swift; sourceTree = "<group>"; };
-		FDAEBDBE2A56C13A00CC2711 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDAEBDBE2A56C13A00CC2711 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		FDAEBDC02A56C13C00CC2711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDAEBDC22A56C13C00CC2711 /* AdoreMe_Hackathon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdoreMe_Hackathon.entitlements; sourceTree = "<group>"; };
 		FDAEBDC42A56C13C00CC2711 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDAEBDCD2A56C24D00CC2711 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		FDAEBDCF2A56E7F300CC2711 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		FDAEBDD22A56F05500CC2711 /* MessageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageProtocol.swift; sourceTree = "<group>"; };
+		FDAEBDD42A56F08100CC2711 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		FDAEBDD72A56F0BE00CC2711 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FDAEBDDA2A56F2B700CC2711 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FDAEBDDD2A56F41F00CC2711 /* HttpExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpExtension.swift; sourceTree = "<group>"; };
+		FDAEBDE02A56F48300CC2711 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		FDAEBDE22A56F5EC00CC2711 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FDAEBDE52A56F6EC00CC2711 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		FDAEBDE72A56F88100CC2711 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +74,14 @@
 		FDAEBDBB2A56C13A00CC2711 /* AdoreMe-Hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				FDAEBDE42A56F6D200CC2711 /* ViewModel */,
+				FDAEBDDF2A56F46D00CC2711 /* Repository */,
+				FDAEBDDC2A56F3F100CC2711 /* Extension */,
+				FDAEBDD92A56F29B00CC2711 /* Helper */,
+				FDAEBDD62A56F0AB00CC2711 /* Data */,
+				FDAEBDD12A56F02C00CC2711 /* Service */,
+				FDAEBDCB2A56C1E200CC2711 /* Views */,
 				FDAEBDBC2A56C13A00CC2711 /* AdoreMe_HackathonApp.swift */,
-				FDAEBDBE2A56C13A00CC2711 /* ContentView.swift */,
 				FDAEBDC02A56C13C00CC2711 /* Assets.xcassets */,
 				FDAEBDC22A56C13C00CC2711 /* AdoreMe_Hackathon.entitlements */,
 				FDAEBDC32A56C13C00CC2711 /* Preview Content */,
@@ -67,6 +95,75 @@
 				FDAEBDC42A56C13C00CC2711 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDAEBDCB2A56C1E200CC2711 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDCC2A56C22C00CC2711 /* Helper */,
+				FDAEBDBE2A56C13A00CC2711 /* ChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDAEBDCC2A56C22C00CC2711 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDCD2A56C24D00CC2711 /* ProductView.swift */,
+				FDAEBDCF2A56E7F300CC2711 /* MessageView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FDAEBDD12A56F02C00CC2711 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDD22A56F05500CC2711 /* MessageProtocol.swift */,
+				FDAEBDD42A56F08100CC2711 /* MessageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FDAEBDD62A56F0AB00CC2711 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDD72A56F0BE00CC2711 /* Message.swift */,
+				FDAEBDE22A56F5EC00CC2711 /* Response.swift */,
+				FDAEBDE72A56F88100CC2711 /* ChatMessage.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FDAEBDD92A56F29B00CC2711 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDDA2A56F2B700CC2711 /* NetworkError.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FDAEBDDC2A56F3F100CC2711 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDDD2A56F41F00CC2711 /* HttpExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FDAEBDDF2A56F46D00CC2711 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDE02A56F48300CC2711 /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FDAEBDE42A56F6D200CC2711 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDAEBDE52A56F6EC00CC2711 /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +236,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDAEBDBF2A56C13A00CC2711 /* ContentView.swift in Sources */,
+				FDAEBDD02A56E7F300CC2711 /* MessageView.swift in Sources */,
+				FDAEBDDB2A56F2B700CC2711 /* NetworkError.swift in Sources */,
+				FDAEBDE82A56F88100CC2711 /* ChatMessage.swift in Sources */,
+				FDAEBDD52A56F08100CC2711 /* MessageService.swift in Sources */,
+				FDAEBDD32A56F05500CC2711 /* MessageProtocol.swift in Sources */,
+				FDAEBDBF2A56C13A00CC2711 /* ChatView.swift in Sources */,
+				FDAEBDCE2A56C24D00CC2711 /* ProductView.swift in Sources */,
 				FDAEBDBD2A56C13A00CC2711 /* AdoreMe_HackathonApp.swift in Sources */,
+				FDAEBDE32A56F5EC00CC2711 /* Response.swift in Sources */,
+				FDAEBDE12A56F48300CC2711 /* Repository.swift in Sources */,
+				FDAEBDD82A56F0BE00CC2711 /* Message.swift in Sources */,
+				FDAEBDE62A56F6EC00CC2711 /* ChatViewModel.swift in Sources */,
+				FDAEBDDE2A56F41F00CC2711 /* HttpExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
