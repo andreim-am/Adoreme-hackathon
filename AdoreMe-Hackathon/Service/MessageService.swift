@@ -11,7 +11,7 @@ struct MessageService: MessageProtocol {
     static func message(message: Message) async throws -> (Data?, NetworkError?) {
         
         guard let url = URL(string:"https://us-central1-adoreme-ai.cloudfunctions.net/agent") else {
-            return (nil, .invalidURL )
+            return (nil, .invalidURL)
         }
         
         var networkError: NetworkError?

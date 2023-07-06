@@ -44,8 +44,8 @@ struct ChatView: View {
                 
                 Button {
                     messages.append(ChatMessage(message: message, isFromUser: true))
-                    message = ""
                     chatViewModel.message(message: Message(input: message, info: MessageInfo()))
+                    message = ""
                 } label: {
                     Image(systemName: "chevron.up.circle")
                         .resizable()
